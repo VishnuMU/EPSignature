@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = "EPSignature"
-  s.version          = "1.0.5"
+  s.name             = "SwiftSignature"
+  s.version          = "1.0.6"
   s.summary          = "Signature component for iOS in Swift"
   s.description      = <<-DESC
 Features
@@ -14,10 +14,10 @@ Features
 7. Can extract the signature as Image
 8. Draws smoothly
 DESC
-  s.homepage         = "https://github.com/ipraba/EPSignature"
+  s.homepage         = "https://github.com/VishnuMU/EPSignature"
   s.license          = 'MIT'
-  s.author           = { "Prabaharan" => "mailprabaharan.e@gmail.com" }
-  s.source           = { :git => "https://github.com/ipraba/EPSignature.git", :tag => s.version.to_s }
+  s.author           = { "Vishnu" => "vishnumu.inboxe@gmail.com" }
+  s.source           = { :git => "https://github.com/VishnuMU/EPSignature.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
